@@ -4,6 +4,4 @@
     )
 }}
 
-
-
-select * from mouni_db.public.emp
+select * from {{ source('test_env', 'test') }}
